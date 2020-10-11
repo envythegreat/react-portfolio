@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {Button} from './Button'
 import '../styles/Header.css'
@@ -9,6 +9,10 @@ export default function Header(){
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   const [button, setButton] = useState(true);
+
+  useEffect(()=>{
+    showButton();
+  }, [])
 
   const showButton = () => {
     if(window.innerWidth <= 960) {
