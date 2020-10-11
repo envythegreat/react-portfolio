@@ -1,11 +1,17 @@
 import React from 'react';
-// import './styles/App.css';
-
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Header from './component/Header'
+
+
 function App() {
   return (
     <>
-      <Header />
+      <Router>
+        <Header />
+        <Switch>
+          <Route path='/' exact />
+        </Switch>
+      </Router>
     </>
   );
 }
