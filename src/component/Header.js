@@ -43,7 +43,7 @@ export default function Header(){
               <Link to="/project" className="nav-links-mobile" onClick={closeMobileMenu}>Projects</Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">Hello</Button>}
+          {button && <Button buttonStyle="btn--outline">My Projects</Button>}
         </div>
       </nav>
     </>
