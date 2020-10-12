@@ -7,7 +7,7 @@ import {Button} from './Button'
 function HeroSection(){
   return(
     <div className="hero-container">
-      {/* <video src={require('../styles/vid/IMG_0226.MOV')} autoPlay loop muted /> */}
+      <video src={require('../styles/vid/IMG_0226.MOV')} autoPlay loop muted />
       <h1>Alouani Mohamed Habib</h1>
       <p>It's None Time, Yeet it</p>
       <div className="hero-btns">
