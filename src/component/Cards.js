@@ -11,7 +11,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={require('../styles/img/img-1.jpg')}
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='Explore the hidden waterfall deep inside the Amazon Jungle Set Sail in the Atlantic Ocean visiting Uncharted Waters Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Adventure'
               path='/services'
             />

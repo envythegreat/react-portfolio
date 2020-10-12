@@ -84,6 +84,12 @@ h1 {
   object-fit: cover;
   transition: all 0.2s linear;
 }
+.btn__info{
+  display: flex;
+  padding: 20px 0px ;
+  justify-content: center;
+  /* border: 1px solid #242424; */
+}
 
 .cards__item__img:hover {
   transform: scale(1.1);
@@ -93,10 +99,18 @@ h1 {
   padding: 20px 30px 30px;
 }
 
+.card__text__header{
+  text-align: center;
+  font-size: 25px;
+  color: #242424;
+  padding: 15px 0px ;
+}
+
 .cards__item__text {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 1200px) {
