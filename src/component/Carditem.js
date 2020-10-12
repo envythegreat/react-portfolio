@@ -10,16 +10,16 @@ function CardItem(props) {
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               className='cards__item__img'
-              alt='Travel Image'
+              alt=""
               src={props.src}
             />
           </figure>
           <div className='cards__item__info'>
-            <h3 className="card__text__header">Hello</h3>
+            <h3 className="card__text__header">Where does it come from?</h3>
             <h5 className='cards__item__text'>{props.text}</h5>
           </div>
           <div className="btn__info">
-            <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--medium"><i class="fab fa-github" /> GITHUB LINK</Button>
+            <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--medium"><i class="fab fa-github" /> GITHUB</Button>
           </div>
         </Link>
       </li>
